@@ -1,0 +1,16 @@
+C:\Users\38098\Desktop\lab1_multiparadigm-programming\task1.lang_with_go_to\bin\Debug\net5.0\task1.lang_with_go_to.exe
+C:\Users\38098\Desktop\lab1_multiparadigm-programming\task1.lang_with_go_to\bin\Debug\net5.0\task1.lang_with_go_to.deps.json
+C:\Users\38098\Desktop\lab1_multiparadigm-programming\task1.lang_with_go_to\bin\Debug\net5.0\task1.lang_with_go_to.runtimeconfig.json
+C:\Users\38098\Desktop\lab1_multiparadigm-programming\task1.lang_with_go_to\bin\Debug\net5.0\task1.lang_with_go_to.runtimeconfig.dev.json
+C:\Users\38098\Desktop\lab1_multiparadigm-programming\task1.lang_with_go_to\bin\Debug\net5.0\task1.lang_with_go_to.dll
+C:\Users\38098\Desktop\lab1_multiparadigm-programming\task1.lang_with_go_to\bin\Debug\net5.0\ref\task1.lang_with_go_to.dll
+C:\Users\38098\Desktop\lab1_multiparadigm-programming\task1.lang_with_go_to\bin\Debug\net5.0\task1.lang_with_go_to.pdb
+C:\Users\38098\Desktop\lab1_multiparadigm-programming\task1.lang_with_go_to\obj\Debug\net5.0\task1.lang_with_go_to.csproj.AssemblyReference.cache
+C:\Users\38098\Desktop\lab1_multiparadigm-programming\task1.lang_with_go_to\obj\Debug\net5.0\task1.lang_with_go_to.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\38098\Desktop\lab1_multiparadigm-programming\task1.lang_with_go_to\obj\Debug\net5.0\task1.lang_with_go_to.AssemblyInfoInputs.cache
+C:\Users\38098\Desktop\lab1_multiparadigm-programming\task1.lang_with_go_to\obj\Debug\net5.0\task1.lang_with_go_to.AssemblyInfo.cs
+C:\Users\38098\Desktop\lab1_multiparadigm-programming\task1.lang_with_go_to\obj\Debug\net5.0\task1.lang_with_go_to.csproj.CoreCompileInputs.cache
+C:\Users\38098\Desktop\lab1_multiparadigm-programming\task1.lang_with_go_to\obj\Debug\net5.0\task1.lang_with_go_to.dll
+C:\Users\38098\Desktop\lab1_multiparadigm-programming\task1.lang_with_go_to\obj\Debug\net5.0\ref\task1.lang_with_go_to.dll
+C:\Users\38098\Desktop\lab1_multiparadigm-programming\task1.lang_with_go_to\obj\Debug\net5.0\task1.lang_with_go_to.pdb
+C:\Users\38098\Desktop\lab1_multiparadigm-programming\task1.lang_with_go_to\obj\Debug\net5.0\task1.lang_with_go_to.genruntimeconfig.cache
