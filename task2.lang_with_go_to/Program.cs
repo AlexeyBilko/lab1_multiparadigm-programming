@@ -184,7 +184,7 @@ namespace task2.lang_with_go_to
 			int innerIterator = 0;
 		innerLoop:
 
-			bool toReplace = false;
+			bool toReplace = false; // меняем ли мы слова при сортировке
 			int lengthToCompare; 
 			if(uniqueWords[innerIterator].Length > uniqueWords[innerIterator + 1].Length)
             {
