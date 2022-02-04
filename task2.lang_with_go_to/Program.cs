@@ -26,9 +26,12 @@ namespace task2.lang_with_go_to
             getCountOfRowsLoop:
                 if ((row = sr.ReadLine()) != null)
                 {
-                    counter++;
-                    goto getCountOfRowsLoop;
-                }
+					if (row != "")
+					{
+						counter++;
+					}
+					goto getCountOfRowsLoop;
+				}
 
                 rows = new string[counter];
                 sr.Close();
@@ -40,9 +43,12 @@ namespace task2.lang_with_go_to
             getEachRowFromFileLoop:
                 if ((row = sr.ReadLine()) != null)
                 {
-                    rows[counter] = row;
-                    counter++;
-                    goto getEachRowFromFileLoop;
+					if (row != "")
+					{
+						rows[counter] = row;
+						counter++;
+					}
+					goto getEachRowFromFileLoop;
                 }
                 sr.Close();
             }

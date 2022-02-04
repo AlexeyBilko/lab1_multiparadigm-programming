@@ -24,7 +24,10 @@ namespace task1.lang_with_go_to
 				getCountOfRowsLoop:
 				if((row = sr.ReadLine()) != null)
 				{
-					counter++;
+					if (row != "")
+					{
+						counter++;
+					}
 					goto getCountOfRowsLoop;
 				}
 				
@@ -38,8 +41,11 @@ namespace task1.lang_with_go_to
 				getEachRowFromFileLoop:
 				if((row = sr.ReadLine()) != null)
 				{
-					rows[counter] = row;
-					counter++;
+					if (row != "")
+					{
+						rows[counter] = row;
+						counter++;
+					}
 					goto getEachRowFromFileLoop;
 				}
 				sr.Close();
