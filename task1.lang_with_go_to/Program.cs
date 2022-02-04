@@ -204,7 +204,7 @@ namespace task1.lang_with_go_to
 
 			int printIterator = 0;
 			printLoop:
-				Console.WriteLine(uniqueWords[printIterator].ToString() + " - " + countOfEachUniqueWord[printIterator].ToString());
+				Console.WriteLine(uniqueWords[printIterator] + " - " + countOfEachUniqueWord[printIterator].ToString());
 			printIterator++;
 			if(printIterator < iter)
             {

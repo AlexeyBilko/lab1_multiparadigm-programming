@@ -244,7 +244,7 @@ namespace task2.lang_with_go_to
 
 			if (pageOfEachUniqueWord[printIterator].Split(", ").Length <= 100)
 			{
-				Console.WriteLine(uniqueWords[printIterator].ToString() + " - " + pageOfEachUniqueWord[printIterator].ToString());
+				Console.WriteLine(uniqueWords[printIterator] + " - " + pageOfEachUniqueWord[printIterator]);
 			}
 			printIterator++;
 			if (printIterator < uniqueWords.Length)
