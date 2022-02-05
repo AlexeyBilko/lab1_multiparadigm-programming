@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Text;
 
 namespace task1.lang_with_go_to
 {
@@ -68,7 +69,16 @@ namespace task1.lang_with_go_to
 			int stopWordsIterator = 0;
 		stopWordsLoop:
 
-			if (stopWords[stopWordsIterator] == tmp[wordsIterator].ToLower()) //если нашли к следующему слову
+			//к нижнему регистру все символы слова
+			char[] tmpStr = tmp[wordsIterator].ToCharArray();
+			for (int i = 0; i < tmpStr.Length; i++)
+			{
+				if (tmpStr[i] >= 65 && tmpStr[i] <= 90)
+					tmpStr[i] = (char)(tmpStr[i] + 32);
+			}
+			tmp[wordsIterator] = new string(tmpStr);
+			//
+			if (stopWords[stopWordsIterator] == tmp[wordsIterator]) //если нашли к следующему слову
 			{
 				stopWord = true;
 			}
@@ -84,7 +94,7 @@ namespace task1.lang_with_go_to
 
 				if (uniqueWords.Length != 0)
 				{
-					if (uniqueWords[ifAlreadyUniqueIterator] == tmp[wordsIterator].ToLower()) //если нашли, обновляем кол-во и выходим из массива
+					if (uniqueWords[ifAlreadyUniqueIterator] == tmp[wordsIterator])
 					{
 						countOfEachUniqueWord[ifAlreadyUniqueIterator]++;
 						ifFound = true;
@@ -160,8 +170,7 @@ namespace task1.lang_with_go_to
 					{
 						goto fromTmpToCountOfUniqueLoop;
 					}
-
-					uniqueWords[uniqueWords.Length - 1] = tmp[wordsIterator].ToLower();
+					uniqueWords[uniqueWords.Length - 1] = tmp[wordsIterator];
 					countOfEachUniqueWord[countOfEachUniqueWord.Length - 1] = 1;
 				}
 			}
