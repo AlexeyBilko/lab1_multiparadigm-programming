@@ -71,10 +71,14 @@ namespace task1.lang_with_go_to
 
 			//к нижнему регистру все символы слова
 			char[] tmpStr = tmp[wordsIterator].ToCharArray();
-			for (int i = 0; i < tmpStr.Length; i++)
+			int tolowerIterator = 0;
+			toLowerLoop:
+				if (tmpStr[tolowerIterator] >= 65 && tmpStr[tolowerIterator] <= 90)
+					tmpStr[tolowerIterator] = (char)(tmpStr[tolowerIterator] + 32);
+			tolowerIterator++;
+			if (tolowerIterator < tmpStr.Length)
 			{
-				if (tmpStr[i] >= 65 && tmpStr[i] <= 90)
-					tmpStr[i] = (char)(tmpStr[i] + 32);
+				goto toLowerLoop;
 			}
 			tmp[wordsIterator] = new string(tmpStr);
 			//
